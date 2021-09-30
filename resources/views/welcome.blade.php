@@ -95,6 +95,13 @@
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+                <div class='my-routes-links'>
+                    <a href="{{ url('/pirmasis') }}">Pirmasis puslapis</a>
+                    <a href="{{ url('/pakartoti') }}">Pakartotine nuoroda</a>
+                    <a href="{{ url('/antras') }}">Antrasis puslapis</a>
+                </div>
+
+
                 <?php
 
                 //welcome.blade.php puslapi
